@@ -832,7 +832,11 @@ button {
     background-position: 50% 0
 }
 
-.portfolio .portfolio__link--blackbox {
+.portfolio .portfolio__link--dsgn {
+    background-image: url(../img/top_designers.jpg)
+}
+
+.portfolio .portfolio__link--models {
     background-image: url(../img/models.jpg)
 }
 
