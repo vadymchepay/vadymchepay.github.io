@@ -832,6 +832,10 @@ button {
     background-position: 50% 0
 }
 
+.portfolio .portfolio__link--royal {
+    background-image: url(../img/royal_event.jpg)
+}
+
 .portfolio .portfolio__link--dsgn {
     background-image: url(../img/top_designers.jpg)
 }
