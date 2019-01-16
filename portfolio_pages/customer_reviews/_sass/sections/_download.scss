@@ -1,0 +1,32 @@
+.download {
+    padding-top: 85px;
+    padding-bottom: 77px;
+    text-align: center;
+}
+
+.section-sub-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &::before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -5px;
+    }
+}
+
+.section-sub-title-details {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+

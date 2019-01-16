@@ -1,0 +1,45 @@
+.story_section {
+    padding: 140px 0 165px;
+
+    .story-section-block {
+        width: 100%;
+        max-width: 776px;
+        margin: 0 auto;
+
+        .story-section-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+            margin-bottom: 32px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .story_section_text {
+            width: 100%;
+
+            .story_section_title {
+                color: #36383a;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: center;
+                margin-bottom: 32px;
+            }
+
+            p {
+                color: #36383a;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 23px;
+                margin-bottom: 27px;
+            }
+        }
+
+    }
+
+
+}
