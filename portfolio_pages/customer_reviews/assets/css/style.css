@@ -367,6 +367,10 @@ body {
   border-radius: 2px;
   text-decoration: none;
   margin-bottom: 5px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
   transition: all .1s linear; }
 
 .btn:hover {
@@ -426,6 +430,10 @@ body {
 
   .header-container {
     max-width: 1200px; } }
+@media (min-width: 320px) and (max-width: 991px) {
+  .btn {
+    min-width: 165px;
+    text-align: center; } }
 .header {
   min-height: 470px;
   background-size: 1920px 470px;
@@ -598,8 +606,8 @@ body {
       padding: 5px 0;
       position: relative;
       z-index: 6;
-      overflow: hidden;
-      line-height: 1; }
+      line-height: 1;
+      overflow: hidden; }
       .main-nav .sub-menu .sub-menu-item .sub-menu-item-link {
         font-size: 13px;
         font-weight: 600;
@@ -1353,6 +1361,11 @@ body {
     font-size: 17px;
     line-height: 1.3;
     text-align: center; }
+    .testimonal .testimonal-author a {
+      color: #ffffff;
+      font-size: 17px;
+      font-weight: 600;
+      text-decoration: underline; }
 
 .engagement-page .testimonals {
   padding-bottom: 120px; }
